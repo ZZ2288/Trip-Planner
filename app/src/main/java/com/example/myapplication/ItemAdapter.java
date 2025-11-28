@@ -44,10 +44,7 @@ public class ItemAdapter extends RecyclerView.Adapter<ItemAdapter.ItemHolder> {
         itemholder.type.setText(item.type);
 
     }
-    public void updateList(List<Items> newList) {
-        this.items = newList;
-        notifyDataSetChanged();
-    }
+
 
     public static class ItemHolder extends RecyclerView.ViewHolder {
         TextView name, country, location, date, type;
