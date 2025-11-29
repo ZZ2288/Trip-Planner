@@ -62,7 +62,7 @@ public class UpdatePage extends AppCompatActivity {
         );
 
 
-        arr.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item); // layout for dropdown
+        arr.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinner.setAdapter(arr);
         date.setOnClickListener(v -> {
             final Calendar c = Calendar.getInstance();
@@ -270,7 +270,7 @@ public class UpdatePage extends AppCompatActivity {
         );
 
 
-        arr.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item); // layout for dropdown
+        arr.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item); 
         spinner.setAdapter(arr);
         date.setOnClickListener(v -> {
             final Calendar c = Calendar.getInstance();
